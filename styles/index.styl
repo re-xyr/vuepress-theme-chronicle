@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: preferred-mono;
+  src:
+      local('Iosevka'),
+      local("Iosevka Slab"),
+      local("Fira Code"),
+      local("Operator Mono Lig"),
+      local("Operator Mono SSm Lig"),
+      local("PragmataPro"),
+      local("Menlo"),
+      local("Monaco"),
+      local("Consolas");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+}
+.layout {
+  color: #222;
+  font-family: "Source Serif Pro", "Noto Serif SC", serif;
+  padding: 0 3em;
+  margin: 3em auto;
+  max-width: 768px;
+  line-height: 1.5em;
+  background-color: white;
+  font-size: 19px;
+  text-rendering: geometricPrecision;
+  font-kerning: normal;
+}
+.dim-anchor {
+  color: gray;
+  text-decoration: 1px underline #8883;
+  transition: .2s;
+}
+.dim-anchor:hover {
+  color: black;
+  text-decoration-color: black;
+}
+main {
+  padding-top: 1em;
+}
+@media screen and (max-width: 768px) {
+  .layout {
+      padding: 0 1em;
+      margin: 1em auto;
+  }
+}
+.katex {
+  font-size: 1em !important;
+}

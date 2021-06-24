@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-theme-chronicle",
+  "version": "1.0.0",
+  "description": "A typographic theme for vuepress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re-xyr/vuepress-theme-chronicle.git"
+  },
+  "author": "daylily",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/re-xyr/vuepress-theme-chronicle/issues"
+  },
+  "homepage": "https://github.com/re-xyr/vuepress-theme-chronicle#readme",
+  "dependencies": {
+    "@vuepress/plugin-blog": "^1.9.4"
+  },
+  "peerDependencies": {
+    "vuepress": "^1.0.0"
+  }
+}
