@@ -189,6 +189,12 @@
 .content td {
     border-bottom: 1px solid #ddd;
 }
+
+.content sup.footnote-ref {
+    font-size: unset;
+    vertical-align: middle;
+    padding: 2px;
+}
 </style>
 
 
